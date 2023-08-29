@@ -1,0 +1,8 @@
+.CatFrame {
+    width: 100%;
+}
+.CatFrame img {
+    width: 200px;
+    display: block;
+    margin: 0 auto -5px;
+}

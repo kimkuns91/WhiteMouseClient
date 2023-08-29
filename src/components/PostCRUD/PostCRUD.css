@@ -1,0 +1,15 @@
+.PostCRUD {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.PostCRUD p {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.PostCRUD p:hover {
+    color: #FD8800;
+    transition: all 0.3s;
+}

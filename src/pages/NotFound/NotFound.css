@@ -1,0 +1,18 @@
+.NotFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.NotFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.NotFound p {
+    margin: 20px 0;
+}
+.NotFound .Btn {
+    margin: 20px 0;
+}

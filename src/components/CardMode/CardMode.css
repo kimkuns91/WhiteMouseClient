@@ -1,0 +1,10 @@
+.CardModeWrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.CardWrap {
+    width: 33.3%;
+    padding: 20px;
+    box-sizing: border-box;
+}

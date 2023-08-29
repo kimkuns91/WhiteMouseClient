@@ -1,0 +1,26 @@
+.Register {
+    padding: 120px 0;
+}
+.LoginWrap {
+    width: 100%;
+    max-width: 430px;
+    padding: 50px 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Register input {
+    color: #000;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: block;
+    box-sizing: border-box;
+    margin: 20px 0 10px;
+}
+
+.Register .Message {
+    margin: 10px 0 20px;
+}

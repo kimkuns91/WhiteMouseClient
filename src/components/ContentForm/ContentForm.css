@@ -1,0 +1,40 @@
+.OpeningForm {
+    animation: opening 1s;
+    opacity: 1;
+}
+@keyframes opening {
+    0% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.ContentForm {
+    width: 100%;
+    /* max-width: 1140px; */
+    padding: 30px 50px 80px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.ContentForm .HL04 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.ContentForm .HL04:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: #FD8800;
+    margin: 10px auto;
+}
+@media (max-width : 768px) {
+    .ContentForm {
+        padding: 30px 16px 50px;
+    }
+}

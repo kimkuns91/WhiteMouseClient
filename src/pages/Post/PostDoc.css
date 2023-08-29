@@ -1,0 +1,10 @@
+.PostHead {
+    padding: 30px 0 10px;
+    margin-bottom: 50px;
+}
+.PostHead p{
+    margin: 10px 0;
+}
+.InnerHTML {
+    padding: 30px 0 80px;
+}

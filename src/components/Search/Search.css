@@ -1,0 +1,20 @@
+.Search {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.SearchInput {
+    background: #eee;
+    width: calc(100% - 400px);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;    
+    box-shadow: inset 7px 2px 10px #babebc, inset -5px -5px 12px #fff;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+}

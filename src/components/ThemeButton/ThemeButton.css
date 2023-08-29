@@ -1,0 +1,35 @@
+.ThemeButton {
+    position: fixed;
+    width: 80px;
+    right: 100px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.ThemeButtonDark {
+    filter: grayscale(1);
+}
+.ThemeButton:hover {
+    animation: Cheese 0.3s infinite;
+}
+@keyframes Cheese {
+    0% {
+        transform: rotate(0);
+    } 
+    25% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0)
+    }
+}
+@media ( max-width : 768px ) {
+    .ThemeButton {
+        display: none;
+    }
+}

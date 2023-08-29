@@ -1,0 +1,47 @@
+.Header .Wrap {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .NavLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .Logo {
+    width: 30px;
+    margin-right: 200px;
+}
+.Header .NavMenu {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 30px;
+}
+
+.Header .NavRight {
+    display: flex;
+}
+.Header .LogoutBtn {
+    cursor: pointer;
+}
+.SideBarBtn {
+    display: none;
+}
+@media ( max-width : 768px ) {
+    .Header .Logo {
+        margin-right: 0;
+    }
+    .Header .NavMenu {
+        margin: 0;
+    }
+    .Header .NavLeft .NavMenu {
+        display: none;
+    }
+    .SideBarBtn {
+        display: block;
+    }
+    .registerBtn {
+        display: none;
+    }
+}

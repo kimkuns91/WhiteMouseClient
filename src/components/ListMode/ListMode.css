@@ -1,0 +1,52 @@
+.ListWrap {
+    width: 100%;
+}
+.ListHead, .ListBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.ListHead {
+    width: 100%;
+    overflow: hidden;
+    background: #FD8800;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.ListWrap01, .ListWrap03, .ListWrap04 {
+    width: 150px;
+}
+.ListBody .ListWrap01, .ListWrap03, .ListWrap04 {
+    text-align: center;
+}
+
+.ListWrap02 {
+    width: calc(100% - 450px);
+    padding: 10px 20px;
+}
+.ListWrap02:hover {
+    color: #FD8800;
+    transition: all 0.3s;
+}
+
+.ListBody:last-child {
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@media (max-width : 768px) {
+    .ListWrap04 {
+        width: 150px;
+    }
+    .ListWrap02 {
+        width: 100%;
+        padding: 10px 20px;
+        /* text-align: center; */
+    }
+    .ListWrap01, .ListWrap03, .ListWrap04 {
+        display: none;
+    }
+}

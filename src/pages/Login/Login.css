@@ -1,0 +1,17 @@
+.Login .SmallForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Login .LargeBtn {
+    margin-top: 30px;
+}
+.Login .CheckboxWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+}
+.Login .FormCheckbox {
+    margin-left: 10px;
+}
