@@ -1,10 +1,13 @@
-import WebcamRec from '../WebcamRec/WebcamRec'
+import Banner from '../../components/Banner/Banner'
+import Navigator from '../../components/Navigator/Navigator'
+
 import './Main.css'
 
 const Main = ()=>{
     return(
-        <div className='Main Page'>
-            {/* <WebcamRec /> */}
+        <div className='Main'>
+            <Banner />
+            <Navigator />
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Card from "../Card/Card"
 import Paging from "../Paging/Paging";
+import { useSelector } from "react-redux";
 import './CardMode.css'
 import Search from "../Search/Search";
 import WriteButton from "../WriteButton/WriteButton";
@@ -18,7 +19,6 @@ const CardMode = ({ data, userRole, ContentTitle, BaseURL })=>{
                 {
                     currentData.map((post, index)=>
                         <div className="CardWrap" key={ index }>
-
                             <Card 
                                 url={`/post/${ post._id }`}
                                 title={ post.title }
