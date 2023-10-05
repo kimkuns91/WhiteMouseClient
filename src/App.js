@@ -21,6 +21,7 @@ import GlobalStyle from './styles/GlobalStyle.js';
 import { lightTheme, darkTheme } from './styles/theme';
 import PostDoc from './pages/Post/PostDoc';
 import NotFound from './pages/NotFound/NotFound';
+import ChatRoom from './pages/ChatRoom/ChatRoom';
 
 function App() {
   const userInfo = useSelector((state) => state.user.value)
@@ -74,6 +75,7 @@ function App() {
             <Route path='/project' element={<ProjectsLayout />}>
               <Route path='editor' element={<PostEditor />} />
               <Route path='editor/:postId' element={<PostEditor />} />
+              <Route path='chatroom' element={<ChatRoom />} />
             </Route>
           </Routes>    
       </div>

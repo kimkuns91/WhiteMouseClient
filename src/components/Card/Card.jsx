@@ -11,7 +11,7 @@ const Card = ({ url, title, keyword, desc, views, comment, createdAt })=>{
         return null;
     };
     const firstImageSrc = extractFirstImageSrc(desc);
-    console.log(firstImageSrc)
+
     return(
         <a href={ url } className="Card">
             <div className='CardHeader'>

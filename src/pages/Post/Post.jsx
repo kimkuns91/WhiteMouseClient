@@ -15,6 +15,9 @@ const Post = ()=>{
     const keyword = searchParams.get('search');
 
     useEffect(()=>{
+        
+    },[])
+    useEffect(()=>{
         setLoading(true)
         const fetchData = async ()=>{
             await findAllPost()
